@@ -5049,7 +5049,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1e198efb0ec9277428dc5546bd76877c, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1331491026416151437, guid: 1e198efb0ec9277428dc5546bd76877c, type: 3}
       propertyPath: m_IsActive
@@ -5578,15 +5578,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2928742755063502142, guid: d34c1cc4efc8cea4e981dae667ebbe9e, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2928742755063502142, guid: d34c1cc4efc8cea4e981dae667ebbe9e, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2928742755063502142, guid: d34c1cc4efc8cea4e981dae667ebbe9e, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 0.33686674
       objectReference: {fileID: 0}
     - target: {fileID: 4502940209311793946, guid: d34c1cc4efc8cea4e981dae667ebbe9e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5647,6 +5647,10 @@ PrefabInstance:
     - target: {fileID: 8567166215733020306, guid: d34c1cc4efc8cea4e981dae667ebbe9e, type: 3}
       propertyPath: m_Name
       value: plato
+      objectReference: {fileID: 0}
+    - target: {fileID: 8567166215733020306, guid: d34c1cc4efc8cea4e981dae667ebbe9e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
