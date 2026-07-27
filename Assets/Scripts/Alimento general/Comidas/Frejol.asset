@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b5731f53d1971448b1466fd96024637, type: 3}
+  m_Name: Frejol
+  m_EditorClassIdentifier: Assembly-CSharp::FoodData
+  recommendedPortionIndex: 0
+  foodName: Frejol
+  foodImage: {fileID: 21300000, guid: 60113977a9f628e478835f9fe21d0282, type: 3}
+  portionDisplayNames:
+  - 1/4 de plato
+  - 1/2 plato
+  - 3/4 de plato
+  - 1 plato
+  portionWeights:
+  - 90
+  - 180
+  - 270
+  - 360
+  glycemicLevel: 1
+  libraryTips: "Consume en porciones moderadas y acomp\xE1\xF1alo con vegetales para
+    equilibrar su contenido de carbohidratos.\r\n\r\nPorci\xF3n recomendada: 1/4
+    de plato"
+  category: 1
+  portionInfo:
+  - "Carbohidratos aprox: 26 g\r\nNivel gluc\xE9mico: Medio\r\nPorci\xF3n: 1/4 de
+    plato"
+  - "Carbohidratos aprox: 52 g\r\nNivel gluc\xE9mico: Medio\r\nPorci\xF3n: 1/2 plato"
+  - "Carbohidratos aprox: 78 g\r\nNivel gluc\xE9mico: Medio\r\nPorci\xF3n: 3/4 de
+    plato"
+  - "Carbohidratos aprox: 104 g\r\nNivel gluc\xE9mico: Medio\r\nPorci\xF3n: 1 plato "
+  portionLevels: 00000000020000000300000003000000
+  foodPrefab: {fileID: 7202058648545306148, guid: bd7fcbc729556dd48b0cb134df4d6448, type: 3}
