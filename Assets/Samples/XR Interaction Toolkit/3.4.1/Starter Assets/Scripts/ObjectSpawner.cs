@@ -150,7 +150,8 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
         /// Event invoked after an object is spawned.
         /// </summary>
         /// <seealso cref="TrySpawnObject"/>
-        public event Action<GameObject> objectSpawned;
+        public event Action<GameObject> objectSpawned;     // Guarda el último objeto creado para que solo exista uno a la vez.
+        GameObject m_CurrentSpawnedObject;
 
         /// <summary>
         /// See <see cref="MonoBehaviour"/>.
@@ -220,8 +221,20 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
                 }
             }
 
-            var objectIndex = isSpawnOptionRandomized ? Random.Range(0, m_ObjectPrefabs.Count) : m_SpawnOptionIndex;
+            var objectIndex = isSpawnOptionRandomized
+                ? Random.Range(0, m_ObjectPrefabs.Count)
+                : m_SpawnOptionIndex;
+
+            // Si ya había un objeto creado, lo elimina antes de crear otro.
+            if (m_CurrentSpawnedObject != null)
+            {
+                Destroy(m_CurrentSpawnedObject);
+            }
+
+            // Crea el nuevo objeto y lo guarda como el objeto actual.
             var newObject = Instantiate(m_ObjectPrefabs[objectIndex]);
+            m_CurrentSpawnedObject = newObject;
+
             if (m_SpawnAsChildren)
                 newObject.transform.parent = transform;
 

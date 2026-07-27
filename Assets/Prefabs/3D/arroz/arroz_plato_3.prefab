@@ -312,7 +312,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd32d46b036015c4f90e120830db05d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PortionInfo
-  portionIndex: 3
+  portionIndex: 2
   floatingLabel: {fileID: 0}
 --- !u!1001 &1949628547272800033
 PrefabInstance:

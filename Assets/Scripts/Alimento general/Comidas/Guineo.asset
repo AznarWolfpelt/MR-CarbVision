@@ -40,8 +40,4 @@ MonoBehaviour:
   - "Carbohidratos aprox: 47 g\r\nNivel gluc\xE9mico: Medio-Alto\r\nPorci\xF3n: 1
     guineo entero"
   portionLevels: 00000000010000000200000003000000
-  portionObjectNames:
-  - Banana_1
-  - Banana_2
-  - Banana_3
-  - Banana_4
+  foodPrefab: {fileID: 7202058648545306148, guid: c846ecd2f8bf37e4f83e693b658253c8, type: 3}

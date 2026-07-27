@@ -29,6 +29,7 @@ public class FoodBrowserManager : MonoBehaviour
 
     public void ShowCategories()
     {
+        Debug.Log("Entró a ShowCategories");
         backButton.SetActive(false);
         ClearContent();
 

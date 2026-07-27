@@ -38,8 +38,4 @@ MonoBehaviour:
     plato"
   - "Carbohidratos aprox: 8 g\r\nNivel gluc\xE9mico: Medio\r\nPorci\xF3n: 1 plato "
   portionLevels: 01000000000000000100000002000000
-  portionObjectNames:
-  - zanahoriaR_plato_1
-  - zanahoriaR_plato_2
-  - zanahoriaR_plato_3
-  - zanahoriaR_plato_4
+  foodPrefab: {fileID: 7202058648545306148, guid: ac4df4c7f86f11641a953fb3f3876c6a, type: 3}

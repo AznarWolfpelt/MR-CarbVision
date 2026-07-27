@@ -326,7 +326,7 @@ namespace UnityEngine.XR.Templates.MR
 
         public void ForceEndAllGoals()
         {
-            m_CoachingUIParent.transform.localScale = Vector3.zero;
+            m_CoachingUIParent.SetActive(false);
 
             TurnOnVideoPlayer();
 
@@ -352,8 +352,7 @@ namespace UnityEngine.XR.Templates.MR
         public void ResetCoaching()
         {
             TurnOffARFeatureVisualization();
-            m_CoachingUIParent.transform.localScale = Vector3.one;
-
+            m_CoachingUIParent.SetActive(true);
             m_OnboardingGoals.Clear();
             m_OnboardingGoals = new Queue<Goal>();
             var welcomeGoal = new Goal(OnboardingGoals.Empty);

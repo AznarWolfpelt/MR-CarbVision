@@ -36,8 +36,4 @@ MonoBehaviour:
   - "Carbohidratos aprox: 6 g\r\nNivel gluc\xE9mico: Bajo\r\nPorci\xF3n: 3/4 de plato"
   - "Carbohidratos aprox: 8 g\r\nNivel gluc\xE9mico: Bajo\r\nPorci\xF3n: 1 plato "
   portionLevels: 01000000000000000100000002000000
-  portionObjectNames:
-  - brocoliH_plato_1
-  - brocoliH_plato_2
-  - brocoliH_plato_3
-  - brocoliH_plato_4
+  foodPrefab: {fileID: 7202058648545306148, guid: 05e470bff9071c14ab026a9a20c2f69c, type: 3}
