@@ -1,9 +1,39 @@
 fileFormatVersion: 2
 guid: 1e198efb0ec9277428dc5546bd76877c
 ModelImporter:
-  serializedVersion: 24200
+  serializedVersion: 22200
   internalIDToNameTable: []
   externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aguacate
+    second: {fileID: 2100000, guid: a5726e2bc8f213841b6ff0f0b2f22e99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aguacate cuerpo
+    second: {fileID: 2100000, guid: 239b90b29f124ea4081da4023fe0c041, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Banana Matte
+    second: {fileID: 2100000, guid: 0f0da24253b50a24faf870f7aa2acb5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Banana cuerpo
+    second: {fileID: 2100000, guid: a642b8a322dea8641ad99339b1f5ce63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BrocoliHervido
+    second: {fileID: 2100000, guid: 5df0c2baa1821b9448c3d81c9ddc1aaa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CarnePollo
+    second: {fileID: 2100000, guid: 2aac45b61c1161048b08fd604db17622, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -96,9 +126,6 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
-    generateMeshLods: 0
-    meshLodGenerationFlags: 0
-    maximumMeshLod: -1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8

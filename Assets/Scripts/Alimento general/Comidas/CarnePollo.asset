@@ -39,8 +39,4 @@ MonoBehaviour:
   - "Carbohidratos aprox: 0 g\r\nNivel gluc\xE9mico: No tiene\r\nPorci\xF3n: 1 pollo
     entero"
   portionLevels: 00000000010000000200000003000000
-  portionObjectNames:
-  - CarnePollo_1-8
-  - CarnePollo_1-4
-  - CarnePollo_medio
-  - CarnePollo_entero
+  foodPrefab: {fileID: 7202058648545306148, guid: 1685c56f607cf9b40ababc922644c643, type: 3}

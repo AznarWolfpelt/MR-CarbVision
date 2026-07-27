@@ -38,4 +38,4 @@ MonoBehaviour:
     plato"
   - "Carbohidratos aprox: 104 g\r\nNivel gluc\xE9mico: Medio\r\nPorci\xF3n: 1 plato "
   portionLevels: 00000000020000000300000003000000
-  foodPrefab: {fileID: 7202058648545306148, guid: bd7fcbc729556dd48b0cb134df4d6448, type: 3}
+  foodPrefab: {fileID: 7202058648545306148, guid: 65a75e32ed5546649a904e21f83ff552, type: 3}
